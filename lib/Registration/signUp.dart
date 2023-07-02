@@ -116,11 +116,6 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
         showNotification();
 
         SystemNavigator.pop();
-        // _configureFirebaseMessaging();
-
-        // Send push notification using FCM or any other preferred method
-        // with the message "Registration successful, to login click on the notification"
-        // You can refer to the firebase_messaging package documentation for sending notifications.
       });
     }
   }
